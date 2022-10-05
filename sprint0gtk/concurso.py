@@ -50,5 +50,5 @@ while result != opcC :
 print("Respuesta Correcta")
 puntuFinal=puntuFinal+puntoPos
 
-
-#print("Puntuación final: "+puntuFinal)
+#imprimir puntuación final
+print("Puntuación final: "+puntuFinal)

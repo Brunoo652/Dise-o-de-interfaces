@@ -1,11 +1,11 @@
-class funcion_fibonacci():
-     if n == 0:
-      #  return 0
-    if n == 1:
-      #  return 1
- #   return funcion_fibonacci(n-1) + funcion_fibonacci(n-2)
 
-if __name__ == '__main__':
-    funcion_fibonacci = funcion_fibonacci(10)
-    print('Fibonacci de orden 10:')
-    print(funcion_fibonacci)
+class fibonnaci :
+    def fibonacci_secuence_dynamic(n: int):
+        secuence = []
+        for i in range(n):
+            if i <= 1:
+                secuence.append(i)
+            else:
+               secuence.append(secuence[i - 1] + secuence[i - 2])
+
+            return secuence

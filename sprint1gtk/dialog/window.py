@@ -3,9 +3,10 @@ gi.require_version ("Gtk", "3.0)")
 from gi.repository import Gtk
 
 class MainWindow (Gtk.Window):
-    button =Gtk.Button (label="Realizar acción");
-
+    button =Gtk.Button (label="Realizar acción")
+    box = Gtk.Box(orientation=Gtk.Orientation.Vertical)
     def __init__(self):
+
         super().__init__(title="Main")
         self.connect("destroy", Gtk.main_quit)
         self.button.connect("clicked", self.on_button_cliked)

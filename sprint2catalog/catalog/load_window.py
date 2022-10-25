@@ -37,7 +37,7 @@ class LoadWindow(Gtk.Window):
             with open("serie3.png", "wb"):
                 shutil.copyfileobj(r.raw, f)
             image = Gtk.Image.new_from_file("serie3.png")
-            result.append{"name": name, "description": description, "gtk_image": image}
+            result.append({"Name": name, "Description": description, "gtk_image": image})
     def launch_load(self):
         thread = threading.Thread(target=self.load.json, args=())
         thread.start()

@@ -5,10 +5,10 @@ from gi.repository import Gtk
 from load_window import LoadWindow
 
 class MainWIndow(Gtk.window):
-    image=Gtk.image
+    image = Gtk.image
 
 
-win = LoadWindow()
-win.show_all()
+    win = LoadWindow()
+    win.show_all()
 
-Gtk.main()
+    Gtk.main()

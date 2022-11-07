@@ -26,13 +26,14 @@ class LoadWindow(Gtk.Window):
 
     def load_json(self):
         response = requests.get('https://github.com/Brunoo652/Interfaces/blob/main/sprint2catalog/catalog/data/edited/serie3.png')
-        josn_list = response.json()
+        json_list = response.json()
 
         result = []
 
         for json_item in json_list:
-            name = json_item("name")
-            description = json_item.get("image_url")
+            name = json_item("Name")
+            description = json_item.get("Description")
+            image_url = json_item.get("image_url")
             r = requests.get(image_url, stream=True)
             with open("serie3.png", "wb"):
                 shutil.copyfileobj(r.raw, f)

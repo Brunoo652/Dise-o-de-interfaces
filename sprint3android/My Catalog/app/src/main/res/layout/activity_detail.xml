@@ -24,6 +24,7 @@
         app:layout_constraintStart_toBottomOf="@id/title"
         android:src="@drawable/camiseta"
         android:scaleType="centerCrop"
+
         android:id="@+id/foto"
         />
 

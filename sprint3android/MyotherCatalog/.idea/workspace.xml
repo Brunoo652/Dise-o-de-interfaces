@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0e862f0-e80a-49ed-b964-ac70b2d5802f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../My Catalog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My Catalog/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCatalog/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCatalog/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCatalog/app/src/main/java/com/example/mycatalog/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCatalog/app/src/main/java/com/example/mycatalog/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCatalog/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCatalog/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c0e862f0-e80a-49ed-b964-ac70b2d5802f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
